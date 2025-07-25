@@ -16,9 +16,8 @@ WORKDIR /app
 # 依存ファイルを先にコピー（キャッシュ活用）
 COPY package*.json ./
 
-
-# 依存関係インストール（--frozen-lockfile や --omit=dev は状況で調整）
-RUN npm install --omit=dev
+# 依存関係インストール
+RUN npm install
 
 # アプリケーションコードのコピー
 COPY . .
