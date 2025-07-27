@@ -16,6 +16,8 @@ WORKDIR /app
 # npm install prisma --save-dev
 # npx prisma init #いらない？
 # npx prisma migrate dev --name init
+# npx prisma generate
+
 
 # 依存ファイルを先にコピー（キャッシュ活用）
 COPY package*.json ./
