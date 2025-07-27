@@ -1,6 +1,5 @@
 # GraphQL × Apollo の Docker環境
-
-`Get started with Apollo Server`のサンプルを試せる環境 となっています。
+ApolloServer で GraphQLを試せる環境 となっています。
 https://www.apollographql.com/docs/apollo-server
 
 

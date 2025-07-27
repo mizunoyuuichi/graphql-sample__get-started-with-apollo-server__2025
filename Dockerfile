@@ -35,4 +35,4 @@ EXPOSE 4000
 # CMD [ "tail", "-f", "/dev/null" ]
 
 # アプリケーション起動 (常駐プロセス)
-CMD ["node", "src/index.js"]
+CMD ["node", "src/index3.js"]
