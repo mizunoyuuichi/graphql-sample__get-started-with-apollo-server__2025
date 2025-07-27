@@ -50,3 +50,28 @@ query GetBooks {
 }
 
 ```
+
+
+```
+query { 
+  feed {
+    id
+    description
+  }
+}
+
+mutation {
+  post(url: "www.a", description: "desc") {
+    id
+    description
+    url
+  }
+}
+```
+
+
+indexは 手を入れていった履歴をファイルに残していっているため、
+index.js, index2.js, index3.js とインクリメントして行ってます。
+
+prisma
+https://www.prisma.io/docs
