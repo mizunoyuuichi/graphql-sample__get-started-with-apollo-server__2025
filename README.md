@@ -75,3 +75,7 @@ index.js, index2.js, index3.js とインクリメントして行ってます。
 
 prisma
 https://www.prisma.io/docs
+
+https://www.prisma.io/docs/orm/tools/prisma-cli#installation
+
+https://www.prisma.io/docs/orm/prisma-migrate/getting-started

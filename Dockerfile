@@ -12,6 +12,10 @@ WORKDIR /app
 
 # 依存関係インストール（--frozen-lockfile や --omit=dev は状況で調整）
 # RUN npm install apollo-server graphql
+# npm install @prisma/client
+# npm install prisma --save-dev
+# npx prisma init #いらない？
+# npx prisma migrate dev --name init
 
 # 依存ファイルを先にコピー（キャッシュ活用）
 COPY package*.json ./
@@ -24,6 +28,8 @@ COPY . .
 
 # tail コマンドが標準で入っていないことがあるため
 RUN apk add --no-cache coreutils
+
+
 
 # ポートを指定（必要に応じて）
 EXPOSE 4000
